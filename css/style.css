@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+
+
+.couponCard{
+    margin: 200px auto;
+    border: 1px solid black;
+    border-radius: 25px;
+    max-width: 450px;
+    min-height: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.couponCard_block{
+    display: flex;
+    justify-content: space-between;
+}
+.couponCard_circle, .couponCard_circle-present{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.couponCard_circle-present img, .couponCard_circle img{
+    width: 25px;
+    height: 25px; 
+}
+
+
